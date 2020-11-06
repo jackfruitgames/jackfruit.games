@@ -1,0 +1,8 @@
+// This file is used to override bootstrap css
+// see: https://create-react-app.dev/docs/adding-bootstrap/#using-a-custom-theme
+
+// Override default variables before the import
+$body-bg: #020024;
+
+// Import Bootstrap and its default variables
+@import '~bootstrap/scss/bootstrap.scss';
