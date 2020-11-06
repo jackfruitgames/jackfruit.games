@@ -1,8 +1,5 @@
-import logo from './logo.svg';
+import logo from './logo.png';
 import './App.css';
-import {
-  Button,
-} from 'reactstrap';
 import Navigation from './components/Navigation';
 import Home from './components/Home';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
@@ -14,15 +11,6 @@ function App() {
       <Navigation></Navigation>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-        <Button color="primary">test</Button>
       </header>
       <BrowserRouter>
         <Switch>
