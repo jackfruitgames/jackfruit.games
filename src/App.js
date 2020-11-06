@@ -9,9 +9,6 @@ function App() {
   return (
     <div className="App">
       <Navigation></Navigation>
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-      </header>
       <BrowserRouter>
         <Switch>
           <Route path="/DeathRollSimulator">
@@ -20,6 +17,9 @@ function App() {
           <Route path="/">
             {/* The Router stops at the first match.
              path='/' matches always! Therefore it needs to be at the end. */}
+            <header className="App-header">
+              <img src={logo} className="App-logo" alt="logo" />
+            </header>
             <Home></Home>
           </Route>
         </Switch>
