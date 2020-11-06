@@ -30,6 +30,16 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
+### `npm run predeploy`
+
+Automatically executed before the `npm run deploy` script to create a new build.
+
+### `npm run deploy`
+
+Deploys the page to the `gh-pages` branch.
+
+Troubleshooting: https://github.com/tschaub/gh-pages#when-get-error-branch-already-exists
+
 ## Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
