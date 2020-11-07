@@ -1,8 +1,13 @@
 .App {
   color: #79a0ce;
   background-color: #020024;
-  border-radius: 10px;
   box-shadow: 0 0 15px #020024;
+}
+
+@media only screen and (min-width : 576px) {
+  .App {
+    border-radius: 10px;
+  }
 }
 
 .App-link {
