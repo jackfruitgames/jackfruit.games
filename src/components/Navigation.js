@@ -1,3 +1,4 @@
+import './Navigation.css'
 import React, { useState } from 'react';
 import {
     Collapse,
@@ -6,7 +7,8 @@ import {
     NavbarBrand,
     NavItem,
     NavLink,
-    NavbarToggler
+    NavbarToggler,
+    Container
   } from 'reactstrap';
 
 const Navigation = (props) => {
@@ -14,8 +16,8 @@ const Navigation = (props) => {
     const toggle = () => setIsOpen(!isOpen);
 
     return (
-        <div>
-            <Navbar className="App-Navbar" dark expand="md">
+        <Container>
+            <Navbar className="Navigation" dark expand="md">
                 <NavbarBrand href="/">Jackfruit Games</NavbarBrand>
                 <NavbarToggler onClick={toggle} />
                 <Collapse isOpen={isOpen} navbar>
@@ -26,7 +28,7 @@ const Navigation = (props) => {
                     </Nav>
                 </Collapse>
             </Navbar>
-        </div>
+        </Container>
     );
 }
 

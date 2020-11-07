@@ -11,8 +11,8 @@ import deathRollMarkdown from './content/DeathRollSimulator/DeathRollSimulator.m
 function App() {
   return (
     <div>
+      <Navigation></Navigation>
       <Container className="App">
-        <Navigation></Navigation>
         <BrowserRouter>
           <Switch>
             <Route path="/DeathRollSimulator">

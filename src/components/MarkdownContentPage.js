@@ -20,7 +20,7 @@ const MarkdownContentPage = (props) => {
     return (
         <div>
             <header>
-                <img src={deathRollBanner} className="img-fluid" alt="Death Roll Simulator banner" />
+                <img src={deathRollBanner} className="img-fluid Md-banner" alt="Death Roll Simulator banner" />
             </header>
             <Container>
                 <Row>
