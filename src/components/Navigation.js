@@ -16,8 +16,8 @@ const Navigation = (props) => {
     const toggle = () => setIsOpen(!isOpen);
 
     return (
-        <Container>
-            <Navbar className="Navigation" dark expand="md">
+        <Container className="Navigation">
+            <Navbar className="Navbar" dark expand="md">
                 <NavbarBrand href="/">Jackfruit Games</NavbarBrand>
                 <NavbarToggler onClick={toggle} />
                 <Collapse isOpen={isOpen} navbar>
