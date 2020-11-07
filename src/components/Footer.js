@@ -7,8 +7,8 @@ const Footer = () => {
     <footer>
       <Container>
         <Row>
-          <Col>
-            <img className="Footer-logo" src={logo} alt="Jackfruit Games logo" />
+          <Col xs={{ size: 8, offset: 2 }} md={{ size: 6, offset: 3 }}>
+            <img className="Footer-logo img-fluid" src={logo} alt="Jackfruit Games logo" />
           </Col>
         </Row>
         <Row>
