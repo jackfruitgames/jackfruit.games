@@ -1,4 +1,4 @@
-.Md h1 {
+.Md h1, .Md h2, .Md h3 {
     margin-top: 2rem;
 }
 
@@ -6,6 +6,16 @@
     max-width: 100%;
 }
 
+/* resize google play badge, selected by alt tag */
+.Md img[alt=google-play-badge] {
+    height: 60px;
+}
+
 .Md p {
     font-size: 1.2rem;
+}
+
+.Md p > img {
+    display: block;
+    margin: auto;
 }

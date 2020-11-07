@@ -28,7 +28,7 @@ const MarkdownContentPage = (props) => {
                     <Col>
                         <ReactMarkdown
                             className="Md"
-                            allowDangerousHtml={true}
+                            // allowDangerousHtml={true}
                             plugins={gemoji}
                             children={markdown}>
                         </ReactMarkdown>
