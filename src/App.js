@@ -1,4 +1,3 @@
-import logo from './img/logo.png';
 import './App.css';
 import Navigation from './components/Navigation';
 import Home from './components/Home';
@@ -22,9 +21,6 @@ function App() {
           <Route path="/">
             {/* The Router stops at the first match.
              path='/' matches always! Therefore it needs to be at the end. */}
-            <header className="App-header">
-              <img src={logo} className="App-logo" alt="logo" />
-            </header>
             <Home></Home>
           </Route>
         </Switch>

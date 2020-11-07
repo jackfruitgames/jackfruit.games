@@ -1,8 +1,7 @@
 import { useEffect, useState } from 'react'
 import { Container, Row, Col } from 'reactstrap'
 import ReactMarkdown from 'react-markdown'
-import gemoji from 'remark-gemoji'
-import logo from '../img/death_roll_banner.jpg';
+import deathRollBanner from '../img/death_roll_banner.jpg';
 import './MarkdownContentPage.css'
 
 const MarkdownContentPage = (props) => {
@@ -21,7 +20,7 @@ const MarkdownContentPage = (props) => {
     return (
         <div>
             <header>
-                <img src={logo} className="App-logo img-fluid" alt="logo" />
+                <img src={deathRollBanner} className="img-fluid" alt="Death Roll Simulator banner" />
             </header>
             <Container>
                 <Row>
@@ -29,7 +28,6 @@ const MarkdownContentPage = (props) => {
                         <ReactMarkdown
                             className="Md"
                             // allowDangerousHtml={true}
-                            plugins={gemoji}
                             children={markdown}>
                         </ReactMarkdown>
                     </Col>
