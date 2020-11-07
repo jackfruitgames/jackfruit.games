@@ -28,7 +28,7 @@ const Home = () => {
                 </Col>
             </Row>
             <Row>
-                <Col xs="6">
+                <Col md="6">
                     <GameCard
                         href="/DeathRollSimulator"
                         download="https://play.google.com/store/apps/details?id=ch.jackfruit.deathrollsimulator"
