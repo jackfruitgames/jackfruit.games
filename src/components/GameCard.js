@@ -7,7 +7,7 @@ import {
 const GameCard = (props) => {
 
     return (
-        <Card>
+        <Card className='GameCard'>
             <CardBody>
                 <CardTitle tag="h4">{props.title}</CardTitle>
                 <CardSubtitle>Released: {props.releaseDate}</CardSubtitle>
@@ -23,9 +23,11 @@ const GameCard = (props) => {
                     <Button color="primary">Read more</Button>
                 </a>
                 {' '}
-                <a href={props.download} target="_blank" rel="noreferrer">
-                    <Button color="primary">Download</Button>
-                </a>
+                <a href={props.download} target='_blank' rel="noreferrer">
+                    <img height='60px'
+                        alt='Get it on Google Play'
+                        src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png'/>
+                    </a>
             </CardBody>
         </Card>
     );

@@ -1,3 +1,7 @@
 .card {
   text-align: left;
 }
+
+.GameCard {
+  margin-bottom: 3rem;
+}
