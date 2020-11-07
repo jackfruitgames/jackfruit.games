@@ -6,28 +6,38 @@ import Footer from './components/Footer'
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import { Container } from 'reactstrap'
 
+import logo from './img/logo.png';
 import deathRollMarkdown from './content/DeathRollSimulator/DeathRollSimulator.md'
 
 function App() {
   return (
     <div>
       <Navigation></Navigation>
-      <Container className="App">
-        <BrowserRouter>
-          <Switch>
-            <Route path="/DeathRollSimulator">
+
+      <BrowserRouter>
+        <Switch>
+
+          <Route path="/DeathRollSimulator">
+            <Container className="App">
               <MarkdownContentPage
                 markdownFile={deathRollMarkdown}>
               </MarkdownContentPage>
-            </Route>
-            <Route path="/">
-              {/* The Router stops at the first match.
+            </Container>
+          </Route>
+
+          <Route path="/">
+            {/* The Router stops at the first match.
                 path='/' matches always! Therefore it needs to be at the end. */}
+            <Container>
+              <img src={logo} className="img-fluid" alt="Jackfruit Games logo" />
+            </Container>
+            <Container className="App">
               <Home></Home>
-            </Route>
-          </Switch>
-        </BrowserRouter>
-      </Container>
+            </Container>
+          </Route>
+
+        </Switch>
+      </BrowserRouter>
       <Container className="App-footer">
         <Footer></Footer>
       </Container>
