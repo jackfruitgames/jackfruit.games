@@ -22,7 +22,7 @@ function App() {
             </Route>
             <Route path="/">
               {/* The Router stops at the first match.
-             path='/' matches always! Therefore it needs to be at the end. */}
+                path='/' matches always! Therefore it needs to be at the end. */}
               <Home></Home>
             </Route>
           </Switch>

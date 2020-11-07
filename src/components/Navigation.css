@@ -1,12 +1,12 @@
 .Navigation {
-    padding-top: 15px;
-    padding-left: 0 !important;
-    padding-right: 0 !important;
+  padding-top: 15px;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
 }
 
 .Navbar {
-    margin-bottom: 15px;
-    background-color:  #020024;
-    border-radius: 10px;
-    box-shadow: 0 0 15px #020024;
+  margin-bottom: 15px;
+  background-color: #020024;
+  border-radius: 10px;
+  box-shadow: 0 0 15px #020024;
 }
