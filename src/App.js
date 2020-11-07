@@ -3,7 +3,9 @@ import './App.css';
 import Navigation from './components/Navigation';
 import Home from './components/Home';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
-import DeathRollSimulator from './components/DeathRollSimulator';
+import MarkdownContentPage from './components/MarkdownContentPage';
+
+import deathRollMarkdown from './content/DeathRollSimulator/DeathRollSimulator.md'
 
 function App() {
   return (
@@ -12,7 +14,9 @@ function App() {
       <BrowserRouter>
         <Switch>
           <Route path="/DeathRollSimulator">
-            <DeathRollSimulator></DeathRollSimulator>
+            <MarkdownContentPage
+              markdownFile={deathRollMarkdown}>
+              </MarkdownContentPage>
           </Route>
           <Route path="/">
             {/* The Router stops at the first match.
