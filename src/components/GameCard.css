@@ -1,7 +1,8 @@
-.card:hover {
-  box-shadow: 5px 5px 5px #e19f27;
+.GameCard:hover {
+  background-color: #007bff40;
 }
 
 .GameCard {
   margin-bottom: 3rem;
+  transition: background .2s;
 }
