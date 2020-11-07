@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.9b14bda6.chunk.css",
-    "main.js": "/static/js/main.9e03c9b4.chunk.js",
-    "main.js.map": "/static/js/main.9e03c9b4.chunk.js.map",
+    "main.css": "/static/css/main.1ba24fbf.chunk.css",
+    "main.js": "/static/js/main.71689b66.chunk.js",
+    "main.js.map": "/static/js/main.71689b66.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.d28993f6.js",
     "runtime-main.js.map": "/static/js/runtime-main.d28993f6.js.map",
     "static/js/2.5ea69eee.chunk.js": "/static/js/2.5ea69eee.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.8de6ab9b.chunk.js": "/static/js/3.8de6ab9b.chunk.js",
     "static/js/3.8de6ab9b.chunk.js.map": "/static/js/3.8de6ab9b.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.9b14bda6.chunk.css.map": "/static/css/main.9b14bda6.chunk.css.map",
+    "static/css/main.1ba24fbf.chunk.css.map": "/static/css/main.1ba24fbf.chunk.css.map",
     "static/js/2.5ea69eee.chunk.js.LICENSE.txt": "/static/js/2.5ea69eee.chunk.js.LICENSE.txt",
     "static/media/DeathRollSimulator.f46d5d9e.md": "/static/media/DeathRollSimulator.f46d5d9e.md",
     "static/media/death_roll_app_icon_512.de032d35.png": "/static/media/death_roll_app_icon_512.de032d35.png",
@@ -21,7 +21,7 @@
   "entrypoints": [
     "static/js/runtime-main.d28993f6.js",
     "static/js/2.5ea69eee.chunk.js",
-    "static/css/main.9b14bda6.chunk.css",
-    "static/js/main.9e03c9b4.chunk.js"
+    "static/css/main.1ba24fbf.chunk.css",
+    "static/js/main.71689b66.chunk.js"
   ]
 }
