@@ -8,8 +8,8 @@ const Home = () => {
     return (
         <Container>
             <Row>
-                <Col>
-                    <h1>WHO WE ARE</h1>
+                <Col className="center-text">
+                    <h1 className="Home-h1">WHO WE ARE</h1>
                     <p className="Home-text">
                         We're a small indie game development studio from Switzerland.
                         Our games are mostly created with open source tools like
@@ -24,7 +24,7 @@ const Home = () => {
             </Row>
             <Row>
                 <Col>
-                    <h1>GAMES</h1>
+                    <h1 className="center-text Home-h1">GAMES</h1>
                 </Col>
             </Row>
             <Row>
