@@ -1,6 +1,7 @@
 .App {
   text-align: left;
   color: #79a0ce;
+  background-color: #020024;
 }
 
 .App-navbar {
@@ -13,9 +14,6 @@
 }
 
 .App-header {
-  background: rgb(2,0,36);
-  background: linear-gradient(135deg, rgba(2,0,36,1) 5%, rgba(28,133,255,1) 100%);
-  /* min-height: 100vh; */
   display: flex;
   flex-direction: column;
   align-items: center;

@@ -4,12 +4,13 @@ import Navigation from './components/Navigation';
 import Home from './components/Home';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import MarkdownContentPage from './components/MarkdownContentPage';
+import { Container } from 'reactstrap'
 
 import deathRollMarkdown from './content/DeathRollSimulator/DeathRollSimulator.md'
 
 function App() {
   return (
-    <div className="App">
+    <Container className="App">
       <Navigation></Navigation>
       <BrowserRouter>
         <Switch>
@@ -28,7 +29,7 @@ function App() {
           </Route>
         </Switch>
       </BrowserRouter>
-    </div>
+    </Container>
   );
 }
 
