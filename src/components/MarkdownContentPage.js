@@ -18,7 +18,7 @@ const MarkdownContentPage = (props) => {
   }, []);
 
   return (
-    <div>
+    <div className="Md">
       <header>
         <img src={deathRollBanner} className="img-fluid Md-banner" alt="Death Roll Simulator banner" />
       </header>
@@ -26,7 +26,7 @@ const MarkdownContentPage = (props) => {
         <Row>
           <Col>
             <ReactMarkdown
-              className="Md"
+              className="Md-content"
               // allowDangerousHtml={true}
               children={markdown}>
             </ReactMarkdown>

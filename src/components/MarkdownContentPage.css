@@ -1,30 +1,31 @@
 .Md {
+  margin-top: 15px;
+  padding-top: 15px;
+}
+
+.Md-content {
   margin-bottom: 2rem;
 }
 
-.Md h1, .Md h2, .Md h3 {
+.Md-content h1, .Md-content h2, .Md-content h3 {
   margin-top: 2rem;
 }
 
-.Md img {
+.Md-content img {
   max-width: 100%;
 }
 
 /* resize google play badge, selected by alt tag */
-.Md img[alt=google-play-badge] {
+.Md-content img[alt=google-play-badge] {
   height: 60px;
 }
 
-.Md p {
+.Md-content p {
   font-size: 1.2rem;
 }
 
-.Md p>img {
+.Md-content p>img {
   display: block;
   margin: auto;
   box-shadow: 0 0 15px rgba(28, 133, 255, 1);
-}
-
-.Md-banner {
-  margin-top: 15px;
 }
