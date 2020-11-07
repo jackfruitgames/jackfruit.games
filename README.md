@@ -1,71 +1,33 @@
-# jackfruit.games
+<p align="center">
+  <img src="https://raw.githubusercontent.com/jackfruitgames/jackfruit.games/main/public/logo192.png">
+</p>
+
+<h1 align="center">
+  jackfruit.games
+</h1>
+
 The Jackfruit Games website :globe_with_meridians:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Quick start
 
-## Available Scripts
+You only need [NodeJS](https://nodejs.org/en/).
 
-In the project directory, you can run:
+```bash
+git clone git@github.com:jackfruitgames/jackfruit.games.git
+cd jackfruit.games
+npm i
+npm run start
+```
 
-### `npm start`
+The page is hosted on GitHub Pages.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+```bash
+# build and deploy to gh-pages branch
+npm run deploy
+```
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Credits
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run predeploy`
-
-Automatically executed before the `npm run deploy` script to create a new build.
-
-### `npm run deploy`
-
-Deploys the page to the `gh-pages` branch.
-
-Troubleshooting: https://github.com/tschaub/gh-pages#when-get-error-branch-already-exists
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Page setup with [Create React App](https://create-react-app.dev/)
+- Responsive page layout created with [Bootstrap](https://getbootstrap.com/)
+- React Router on GitHub Pages adopted from [rafgraph/spa-github-pages](https://github.com/rafgraph/spa-github-pages)
