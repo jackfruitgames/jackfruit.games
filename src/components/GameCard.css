@@ -1,5 +1,5 @@
-.card {
-  text-align: left;
+.card:hover {
+  box-shadow: 5px 5px 5px #e19f27;
 }
 
 .GameCard {
