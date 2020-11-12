@@ -1,23 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.7dfa7c48.chunk.css",
-    "main.js": "/static/js/main.4c098981.chunk.js",
-    "main.js.map": "/static/js/main.4c098981.chunk.js.map",
+    "main.css": "/static/css/main.51741233.chunk.css",
+    "main.js": "/static/js/main.ded029a0.chunk.js",
+    "main.js.map": "/static/js/main.ded029a0.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.ef274fd6.js",
     "runtime-main.js.map": "/static/js/runtime-main.ef274fd6.js.map",
-    "static/js/2.d239f969.chunk.js": "/static/js/2.d239f969.chunk.js",
-    "static/js/2.d239f969.chunk.js.map": "/static/js/2.d239f969.chunk.js.map",
+    "static/js/2.07ecfc59.chunk.js": "/static/js/2.07ecfc59.chunk.js",
+    "static/js/2.07ecfc59.chunk.js.map": "/static/js/2.07ecfc59.chunk.js.map",
     "static/js/3.1c387092.chunk.js": "/static/js/3.1c387092.chunk.js",
     "static/js/3.1c387092.chunk.js.map": "/static/js/3.1c387092.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.7dfa7c48.chunk.css.map": "/static/css/main.7dfa7c48.chunk.css.map",
-    "static/js/2.d239f969.chunk.js.LICENSE.txt": "/static/js/2.d239f969.chunk.js.LICENSE.txt",
+    "static/css/main.51741233.chunk.css.map": "/static/css/main.51741233.chunk.css.map",
+    "static/js/2.07ecfc59.chunk.js.LICENSE.txt": "/static/js/2.07ecfc59.chunk.js.LICENSE.txt",
     "static/media/DeathRollSimulator.f46d5d9e.md": "/static/media/DeathRollSimulator.f46d5d9e.md",
     "static/media/bitcoin.de0359d6.svg": "/static/media/bitcoin.de0359d6.svg",
     "static/media/death_roll_app_icon_512.de032d35.png": "/static/media/death_roll_app_icon_512.de032d35.png",
     "static/media/death_roll_banner.bcfc2db2.jpg": "/static/media/death_roll_banner.bcfc2db2.jpg",
     "static/media/ethereum.72c9299d.svg": "/static/media/ethereum.72c9299d.svg",
     "static/media/github.0a011132.svg": "/static/media/github.0a011132.svg",
+    "static/media/icon128.6792d9b3.png": "/static/media/icon128.6792d9b3.png",
     "static/media/logo.bcb36608.png": "/static/media/logo.bcb36608.png",
     "static/media/qr_bitcoin.5c9bdcf1.png": "/static/media/qr_bitcoin.5c9bdcf1.png",
     "static/media/qr_ethereum.721717fc.png": "/static/media/qr_ethereum.721717fc.png",
@@ -25,8 +26,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.ef274fd6.js",
-    "static/js/2.d239f969.chunk.js",
-    "static/css/main.7dfa7c48.chunk.css",
-    "static/js/main.4c098981.chunk.js"
+    "static/js/2.07ecfc59.chunk.js",
+    "static/css/main.51741233.chunk.css",
+    "static/js/main.ded029a0.chunk.js"
   ]
 }
