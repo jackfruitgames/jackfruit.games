@@ -5,6 +5,7 @@ import MarkdownContentPage from './components/MarkdownContentPage';
 import Footer from './components/Footer'
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import { Container } from 'reactstrap'
+import { Helmet } from 'react-helmet'
 
 import logo from './img/logo.png';
 import deathRollMarkdown from './content/DeathRollSimulator/DeathRollSimulator.md'
@@ -19,6 +20,12 @@ function App() {
 
           <Route path="/DeathRollSimulator">
             <Container className="App">
+              <Helmet>
+                <title>Jackfruit Games - WoW Death Roll Simulator</title>
+                <meta
+                  name="description"
+                  content="A must have for every death roll fan! The WoW Death Roll Simulator by Jackfruit Games." />
+              </Helmet>
               <MarkdownContentPage
                 markdownFile={deathRollMarkdown}>
               </MarkdownContentPage>
