@@ -1,5 +1,5 @@
 import './Navigation.css'
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import {
   Collapse,
   Nav,
@@ -18,6 +18,17 @@ const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
   const toggle = () => setIsOpen(!isOpen);
 
+  const [onDeathRollPage, setOnDeathRollPage] = useState(false)
+
+  useEffect(() => {
+    if (window.location.pathname === '/DeathRollSimulator') {
+      setOnDeathRollPage(true)
+    }
+
+    // empty dependency array means this effect will only run once
+    // eslint-disable-next-line
+  }, []);
+
   return (
     <Container className="Navigation">
       <Navbar className="Navbar" dark expand="md">
@@ -28,7 +39,11 @@ const Navigation = () => {
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto" navbar>
             <NavItem>
-              <NavLink href="/DeathRollSimulator">WoW Death Roll Simulator</NavLink>
+              <NavLink href="/DeathRollSimulator">
+                <span class={onDeathRollPage ? 'Nav-current-page' : null}>
+                  WoW Death Roll Simulator
+                </span>
+              </NavLink>
             </NavItem>
           </Nav>
           <NavbarText>
