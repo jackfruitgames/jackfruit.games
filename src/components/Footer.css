@@ -8,3 +8,32 @@ footer {
 .Footer-logo {
   opacity: 0.8;
 }
+
+.Donate-icon {
+  height: 2rem;
+  margin-right: 0.5rem;
+  margin-left: 0.5rem;
+  cursor: pointer;
+}
+
+.Big-margin-top {
+  margin-top: 2rem;
+}
+
+.Small-margin-top {
+  margin-top: 1rem;
+}
+
+.Donate-modal {
+  background-color: #020024;
+  border-color: #6AA0CE !important;
+  color: #6AA0CE;
+}
+
+.Donate-modal h3 {
+  margin-bottom: 0;
+}
+
+.Qr-image {
+  width: 100%;
+}
