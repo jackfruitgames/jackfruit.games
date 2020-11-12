@@ -31,3 +31,4 @@ npm run deploy
 - Page setup with [Create React App](https://create-react-app.dev/)
 - Responsive page layout created with [Bootstrap](https://getbootstrap.com/)
 - React Router on GitHub Pages adopted from [rafgraph/spa-github-pages](https://github.com/rafgraph/spa-github-pages)
+- Crypto QR codes generated using [cwaqrgen.com](https://cwaqrgen.com/)
