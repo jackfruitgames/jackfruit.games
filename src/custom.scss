@@ -15,5 +15,10 @@ $card-bg: #007bff25;
     text-shadow: 0 1px 0 #000;
 }
 
+.modal-content {
+    background-color: #020024 !important;
+    border-color: #e19f27 !important;
+}
+
 // Import Bootstrap and its default variables
 @import '~bootstrap/scss/bootstrap.scss';
