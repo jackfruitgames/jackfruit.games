@@ -10,7 +10,9 @@ const GameCard = (props) => {
     <Col md="6">
       <Card className='GameCard'>
         <CardBody>
-          <CardTitle tag="h4">{props.title}</CardTitle>
+          <CardTitle tag="h3">
+            <a href="/DeathRollSimulator">{props.title}</a>
+          </CardTitle>
           <CardSubtitle>Released: {props.releaseDate}</CardSubtitle>
         </CardBody>
         <a href={props.href}>

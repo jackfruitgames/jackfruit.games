@@ -27,5 +27,5 @@
 .Md-content p>img {
   display: block;
   margin: auto;
-  box-shadow: 0 0 15px rgba(28, 133, 255, 1);
+  box-shadow: 0 0 15px #000;
 }

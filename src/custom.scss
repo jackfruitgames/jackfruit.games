@@ -1,24 +1,36 @@
 // This file is used to override bootstrap css
 // see: https://create-react-app.dev/docs/adding-bootstrap/#using-a-custom-theme
+// see also: https://getbootstrap.com/docs/4.0/getting-started/theming/
 
 // Override default variables before the import
 $body-bg: #020024;
-$card-bg: #007bff25;
+$body-color: #b7c8dd;
+$card-bg: #02002477;
+$primary: #e19f27;
 
-.modal-header .close {
-    color: #6AA0CE;
-    text-shadow: 0 1px 0 #000;
+// Import Bootstrap and its default variables
+@import '~bootstrap/scss/bootstrap.scss';
+
+.card {
+    border: 0;
 }
 
 .modal-header .close:hover {
-    color: #6AA0CE;
+    color: #b7c8dd;
     text-shadow: 0 1px 0 #000;
 }
 
 .modal-content {
-    background-color: #020024 !important;
-    border-color: #e19f27 !important;
+    background-color: #1c1d25;
+    box-shadow: 0 0 15px #000;
+    border: 0;
 }
 
-// Import Bootstrap and its default variables
-@import '~bootstrap/scss/bootstrap.scss';
+.modal-header .close {
+    color: #b7c8dd;
+    text-shadow: 0 1px 0 #000;
+}
+
+a {
+    color: #e19f27;
+}

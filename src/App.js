@@ -45,9 +45,8 @@ function App() {
 
         </Switch>
       </BrowserRouter>
-      <Container className="App-footer">
-        <Footer></Footer>
-      </Container>
+
+      <Footer></Footer>
     </div>
   );
 }

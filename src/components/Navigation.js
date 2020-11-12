@@ -40,7 +40,7 @@ const Navigation = () => {
           <Nav className="mr-auto" navbar>
             <NavItem>
               <NavLink href="/DeathRollSimulator">
-                <span class={onDeathRollPage ? 'Nav-current-page' : null}>
+                <span class={onDeathRollPage ? 'Nav-current-page' : 'Nav-other-page'}>
                   WoW Death Roll Simulator
                 </span>
               </NavLink>

@@ -4,7 +4,7 @@
 }
 
 .Navbar {
-  background-color: #020024;
+  background-color: #020024cc;
   box-shadow: 0 0 15px #020024;
 }
 
@@ -42,4 +42,14 @@
 .Nav-current-page {
   color: #e19f27;
   font-weight: bold;
+  text-shadow: 0 0 14px #ffe98daa;
+}
+
+.Nav-other-page:hover {
+  text-shadow: 0 0 14px #b7c8ddaa;
+}
+
+.Nav-other-page {
+  font-weight: bold;
+  color: #b7c8dd;
 }

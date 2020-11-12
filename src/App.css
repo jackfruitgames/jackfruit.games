@@ -1,19 +1,10 @@
 .App {
-  color: #79a0ce;
-  background-color: #020024;
-  box-shadow: 0 0 15px #020024;
+  background-color: #02002466;
+  box-shadow: 0 0 15px #000;
 }
 
 @media only screen and (min-width : 576px) {
   .App {
     border-radius: 10px;
   }
-}
-
-.App-link {
-  color: #1c85ff;
-}
-
-.App-footer {
-  color: #79a0ce;
 }
