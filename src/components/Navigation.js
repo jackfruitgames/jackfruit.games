@@ -12,6 +12,7 @@ import {
   Container
 } from 'reactstrap';
 import githubIcon from '../img/github.svg';
+import icon128 from '../img/icon128.png'
 
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -20,7 +21,9 @@ const Navigation = () => {
   return (
     <Container className="Navigation">
       <Navbar className="Navbar" dark expand="md">
-        <NavbarBrand href="/">Jackfruit Games</NavbarBrand>
+        <NavbarBrand className="Nav-brand" href="/">
+          <img src={icon128} className="Nav-icon" alt="Jackfruit Games" />
+        </NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto" navbar>
