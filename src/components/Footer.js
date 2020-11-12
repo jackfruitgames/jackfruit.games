@@ -20,21 +20,21 @@ const Footer = () => {
 
   const [modal, setModal] = useState(false);
   const [qrImage, setQrImage] = useState(ethQrCode);
-  const [modalTitle, setModalTitle] = useState('');
+  const [selectedCoin, setModalCoin] = useState('');
   const [modalPublicKey, setModalPublicKey] = useState('');
 
   const toggleModal = () => setModal(!modal);
 
   const toggleModalBtc = () => {
-    setModalTitle('Bitcoin Donation');
-    setModalPublicKey('bc1qh g0dw ydnm 7a5n ygnq r8e0 597q g8gz 8xh3 qyhdh');
+    setModalCoin('Bitcoin');
+    setModalPublicKey('bc1qhg0dwydnm7a5nygnqr8e0597qg8gz8xh3qyhdh');
     setQrImage(btcQrCode);
     toggleModal();
   }
 
   const toggleModalEth = () => {
-    setModalTitle('Ethereum Donation');
-    setModalPublicKey('0x323 d01b F3B5 ea3e 8235 6Dbb 0fB2 CF65 540A e1ce8');
+    setModalCoin('Ethereum');
+    setModalPublicKey('0x323d01bF3B5ea3e82356Dbb0fB2CF65540Ae1ce8');
     setQrImage(ethQrCode);
     toggleModal();
   }
@@ -44,12 +44,13 @@ const Footer = () => {
       <Container>
 
         <Modal isOpen={modal} toggle={toggleModal}>
-          <ModalHeader toggle={toggleModal} className="Donate-modal"><h3>{modalTitle}</h3></ModalHeader>
+          <ModalHeader toggle={toggleModal} className="Donate-modal"><h3>{selectedCoin} Donation</h3></ModalHeader>
           <ModalBody className="Donate-modal center-text">
             Thank you for donating to Jackfruit Games. Please use the QR
-            code or the address below to initiate the payment.
+              code or the {selectedCoin} address below to initiate the payment.
             <img src={qrImage} alt="Donation QR code" className="Qr-image Small-margin-top" />
-            <p className="Small-margin-top">{modalPublicKey}</p>
+            <p className="Small-margin-top No-margin-bottom">Our {selectedCoin} address:</p>
+            <p className="Wrap-address">{modalPublicKey}</p>
           </ModalBody>
           <ModalFooter className="Donate-modal">
             <Button color="primary" onClick={toggleModal}>Done</Button>
