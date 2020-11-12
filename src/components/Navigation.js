@@ -8,8 +8,10 @@ import {
   NavItem,
   NavLink,
   NavbarToggler,
+  NavbarText,
   Container
 } from 'reactstrap';
+import githubIcon from '../img/github.svg';
 
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -26,6 +28,11 @@ const Navigation = () => {
               <NavLink href="/DeathRollSimulator">WoW Death Roll Simulator</NavLink>
             </NavItem>
           </Nav>
+          <NavbarText>
+            <a href="https://github.com/jackfruitgames" target="_blank" rel="noreferrer">
+              <img src={githubIcon} alt="GitHub" className="Link-icon" />
+            </a>
+          </NavbarText>
         </Collapse>
       </Navbar>
     </Container>
